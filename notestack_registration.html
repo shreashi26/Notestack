@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="notestack_registration.css" />
+<head>
+<script>
+function validateForm(){
+var register= document.forms["myForm"]["reg"].value;
+if(register==""){
+alert("Registration Number must be filled out");
+return false;
+}
+var username= document.forms["myForm"]["username"].value;
+if(username==""){
+alert("Username must be filled out");
+return false;
+}
+
+ var password =document.forms["myForm"]["psw"].value ;
+ var confirmpassword = document.forms["myForm"]["cpsw"].value;
+ if (password!=confirmpassword){
+ alert("Passwords do not match! Please enter same passwords");
+ return false;
+	
+ }
+	var x= document.forms["myForm"]["email"].value;
+     var atpos = x.indexOf("@");
+     var dotpos = x.lastIndexOf(".");
+		if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+			alert("email is not in the correct format");
+			return false;
+		}
+var mob1=document.forms["myForm"]["mobile"].value;
+var mob2=document.forms["myForm"]["mobile"].value.length;
+//if( document.myForm.mobile.value == "" ||
+        //document.myForm.mobile.value.length != 10 )
+		if(mob1==""||mob2!=10)
+        {
+            alert("phone number should be of 10 digits");
+        return false;
+		}
+
+ 
+	return true;
+}
+
+
+</script>
+</head>
+<style>
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+</style>
+<body background="images/ds.jpg">
+<ul class="topnav">
+  <li class="right"><a href="notestack_logout.php">LOGOUT</a></li>
+  <li class="right"><a href="notestack_contact.html">CONTACT US</a></li>
+  <li class="right"><a href="notestack_registration.html">REGISTER</a></li>
+  <li class="right"><a href="notestack_login.html">LOGIN</a></li>
+  
+</ul>
+
+<h2>Registration Form</h2>
+
+<form name="myForm" method="POST" action="reg.php" onsubmit="return validateForm()">
+  <div class="container">
+  	<label><b>Registration Number</b></label><br>
+    <input type="text" placeholder="Enter Register Number" name="reg" ><br>
+    <label><b>Username</b></label><br>
+    <input type="text" placeholder="Enter Username" name="username"><br>
+	<div class="td">
+    <label><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw"><br>
+	</div>
+	<div class="td">
+	 <label><b>Confirm Password</b></label><br>
+    <input type="password" placeholder="Enter Password again" name="cpsw"><br>
+	</div>
+    <label><b>Email Id</b></label><br>
+    <input type="text" placeholder="Enter Email Id" name="email"><br>
+    <label><b>Mobile Number</b></label><br>
+    <input type="text" placeholder="Enter Mobile no" name="mobile"><br>
+    <input type="checkbox" checked="checked"> Remember me
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <div class="clearfix">
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>

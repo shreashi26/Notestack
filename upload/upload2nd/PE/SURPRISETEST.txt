@@ -1,0 +1,77 @@
+	Reg No. 									
+TEAM -I	RA1411008010143	Computer Crime: Theft of unprotected data								
+	RA1411008010148									
+	RA1411008010151									
+	RA1411008010165									
+	RA1411008010201	
+								
+TEAM -2	RA1411008010109	 Computer Crime: Wire tapping and Eavesdropping								
+	RA1411008010115									
+	RA1411008010186									
+	RA1411008010176									
+	RA1411008010130	
+								
+TEAM -3	RA1411008010199	Computer Crime: Intellectual Property Rights and Software Piracy								
+	RA1411008010184									
+	RA1411008010181									
+	RA1411008010196									
+	RA1411008010133
+									
+TEAM -4	RA1411008010094	Privacy: Sensitive Personal Information								
+	RA1411008010137									
+	RA1411008010104									
+	RA1411008010135									
+	RA1411008010127	
+								
+TEAM -5	RA1411008010164	Privacy: Employee email privacy								
+	RA1411008010198									
+	RA1411008010163									
+	RA1411008010159									
+	RA1411008010178
+									
+TEAM -6	RA1411008010001	Computer Crime: Attacks on Software through Back Doors or Trojan Horses								
+	RA1411008010004									
+	RA1411008010030									
+	RA1411008010053									
+	RA1411008010045	
+								
+TEAM -7	RA1411008010042	Computer Crime: Attacks on People - Financial Hacks								
+	RA1411008010046									
+	RA1411008010039									
+	RA1411008010141									
+	RA1411008010203	
+								
+TEAM -8	RA1411008010128	Computer Crime: Attacks on People - Digital Forgery								
+	RA1411008010124									
+	RA1411008010077									
+	RA1411008010097									
+	RA1411008010114
+									
+TEAM -9	RA1411008010158	Intellectual Property: Music Software								
+	RA1411008010172									
+	RA1411008010209								
+	RA1411008010173									
+	RA1411008010154	
+								
+TEAM -10RA1411008010093	Computer Crime: Attacks on People - Harassment								
+	RA1411008010118									
+	RA1411008010087									
+	RA1411008010123									
+	RA1411008010126	
+								
+TEAM -11RA1411008010068	Plagiarized Art Work real life scenario								
+	RA1411008010022									
+	RA1411008010061									
+	RA1411008010107									
+	RA1411008010014	
+								
+TEAM -12RA1411008010091	Copying Computer Program								
+	RA1411008010182									
+	RA1411008010200									
+	RA1411008010121									
+										
+TEAM -13RA1411008010010	Unfair Business Practices: Market Domination by Anti-Competitive Actions								
+	RA1411008010016									
+	RA1411008010065									
+	RA1411008010089									
+	RA1411008010083									
